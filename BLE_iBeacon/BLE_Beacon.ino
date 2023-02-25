@@ -17,7 +17,7 @@ RTC_DATA_ATTR static uint32_t bootcount; // remember number of boots in RTC Memo
 BLEAdvertising *pAdvertising;   // BLE Advertisement type
 struct timeval now;
 
-#define BEACON_UUID "87b99b2c-90fd-11e9-bc42-526af7764f64" // UUID 1 128-Bit (may use linux tool uuidgen or random numbers via https://www.uuidgenerator.net/)
+#define BEACON_UUID "87b99b2c-90fd-11e9-bc42-526af7764f64"
 
 void setBeacon()
 {
